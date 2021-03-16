@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Navbar.scss'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default class Navbar extends Component {
   state = {
@@ -27,6 +28,10 @@ export default class Navbar extends Component {
     })
   }
 
+  handleActive (props) {
+    console.log('Coucou', props)
+  }
+
   render () {
     return (
       <div className='top-navbar'>
@@ -42,9 +47,15 @@ export default class Navbar extends Component {
             </div>
             <div className='d-flex'>
               <ul className='d-flex'>
-                <li className='active'>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li className='active' onClick={this.handleActive.bind(1)}>
+                  <AnchorLink style={{ textDecoration: 'none' }} href='#carouselCV'>Home</AnchorLink>
+                </li>
+                <li>
+                  <AnchorLink style={{ textDecoration: 'none' }} href='#About'>About</AnchorLink>
+                </li>
+                <li>
+                  <AnchorLink style={{ textDecoration: 'none' }} href='#Contact'>Contact</AnchorLink>
+                </li>
               </ul>
             </div>
           </div>

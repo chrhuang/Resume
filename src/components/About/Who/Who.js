@@ -14,9 +14,11 @@ export default class Who extends Component {
         <div className='me'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit itaque nostrum nemo natus ducimus molestiae maxime. Neque dicta cum et eos, quidem eaque veritatis laudantium nemo sint? Sapiente, deleniti fuga?
         </div>
-        <div className='download'>
-          Download my cv
-        </div>
+        <a href='https://github.com/chrhuang/CV/raw/master/Christian%20Huang.pdf' download>
+          <div className='download'>
+            Download my cv
+          </div>
+        </a>
       </div>
     )
   }

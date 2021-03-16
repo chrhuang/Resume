@@ -9,6 +9,7 @@
     "bootstrap": "^4.6.0",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
@@ -37,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-   "standard": {
+  "standard": {
     "parser": "babel-eslint"
   }
 }

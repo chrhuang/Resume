@@ -6,7 +6,7 @@ import './About.scss'
 export default class About extends Component {
   render () {
     return (
-      <div className='About container flex-center'>
+      <div id='About' className='About container flex-center'>
         <div className='title'>
           <b>ABOUT ME</b>
         </div>
