@@ -1,0 +1,20 @@
+.Who {
+    .title {
+        font-weight: normal;
+    }
+    .me {
+        margin: 25px 0;
+    }
+    .download {
+        cursor: pointer;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #303030;
+        width: auto;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        color: #f9f9f9;
+    }
+}

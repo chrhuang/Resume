@@ -1,0 +1,20 @@
+.About {
+    padding: 80px 0;
+    ::selection {
+        background: transparent;
+    }
+    .title {
+        font-size: 36px;
+    }
+    .line {
+        position: relative;
+        width: 100px;
+        border: 1px solid #737373;
+        top: -5px;
+    }
+
+    .about-me {
+        margin-top: 60px;
+        width: 100%;
+    }
+}

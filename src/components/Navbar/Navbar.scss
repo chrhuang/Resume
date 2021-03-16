@@ -1,5 +1,4 @@
 .top-navbar {
-    font-family: "Raleway", sans-serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -36,6 +35,10 @@
 
     .active {
         text-decoration-line: overline;
+    }
+
+    li {
+        cursor: pointer;
     }
 }
 

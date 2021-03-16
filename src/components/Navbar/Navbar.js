@@ -43,12 +43,9 @@ export default class Navbar extends Component {
             </div>
             <div className='d-flex'>
               <ul className='d-flex'>
-                <li className='align-item-center active'>
-                  Home
-                </li>
-                <li>
-                  Contact
-                </li>
+                <li className='active'>Home</li>
+                <li>About</li>
+                <li>Contact</li>
               </ul>
             </div>
           </div>
