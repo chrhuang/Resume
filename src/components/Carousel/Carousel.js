@@ -4,9 +4,9 @@ import './Carousel.scss'
 export default class Carousel extends Component {
   render () {
     return (
-      <div id='carouselCV' class='carousel slide' data-ride='carousel' data-interval='500000'>
+      <div id='carouselCV' className='carousel slide' data-ride='carousel' data-interval='500000'>
         <ol className='carousel-indicators'>
-          <li data-target='#carouselCV' data-slide-to='0' class='active' />
+          <li data-target='#carouselCV' data-slide-to='0' className='active' />
           <li data-target='#carouselCV' data-slide-to='1' />
           <li data-target='#carouselCV' data-slide-to='2' />
         </ol>

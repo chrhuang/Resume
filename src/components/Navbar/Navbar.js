@@ -16,7 +16,6 @@ export default class Navbar extends Component {
 
   listenToScroll = () => {
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop
-    console.log(winScroll)
     const navbar = document.getElementsByClassName('top-navbar')
     if (winScroll === 0) {
       navbar[0].classList.remove('scroll')
