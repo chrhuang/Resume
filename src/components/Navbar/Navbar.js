@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Navbar.scss'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import avatar from '../../img/photo.jpg'
 
 export default class Navbar extends Component {
   state = {
@@ -38,7 +39,7 @@ export default class Navbar extends Component {
         <div className='container'>
           <div className=' d-flex justify-content-between align-items-center'>
             <div className='profile d-flex align-items-center'>
-              <img className='photo' src='photo.jpg' alt='avatar' />
+              <img className='photo' src={avatar} alt='avatar' />
               <div className='name'>
                 Christian <b>HUANG</b>
                 <br />

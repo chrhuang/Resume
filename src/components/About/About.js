@@ -3,6 +3,8 @@ import Who from './Who/Who'
 import Expert from './Expert/Expert'
 import Box from './Box/Box'
 import './About.scss'
+import Educations from '../../ressources/educations.json'
+import Experiences from '../../ressources/experiences.json'
 
 export default class About extends Component {
   render () {
@@ -22,10 +24,10 @@ export default class About extends Component {
         </div>
         <div className='row info'>
           <div className='col-6'>
-            <Box title='Edu' titleBis='cation' />
+            <Box title='Edu' titleBis='cation' ressources={Educations.educations} />
           </div>
           <div className='col-6'>
-            <Box title='Ex' titleBis='perience' />
+            <Box title='Ex' titleBis='perience' ressources={Experiences.experiences} />
           </div>
         </div>
       </div>
