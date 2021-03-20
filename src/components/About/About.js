@@ -15,18 +15,18 @@ export default class About extends Component {
         </div>
         <div className='line' />
         <div className='row about-me'>
-          <div className='col-6'>
+          <div className='col-lg-6 col-sm-12'>
             <Who />
           </div>
-          <div className='col-6'>
+          <div className='col-lg-6 col-sm-12'>
             <Expert />
           </div>
         </div>
         <div className='row info'>
-          <div className='col-6'>
+          <div className='col-lg-6 col-sm-12'>
             <Box title='Edu' titleBis='cation' ressources={Educations.educations} />
           </div>
-          <div className='col-6'>
+          <div className='col-ls-6 col-sm-12'>
             <Box title='Ex' titleBis='perience' ressources={Experiences.experiences} />
           </div>
         </div>
