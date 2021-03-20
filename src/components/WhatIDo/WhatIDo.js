@@ -1,4 +1,5 @@
 import React from 'react'
+import Box from './Box/Box'
 import './WhatIDo.scss'
 
 export default function WhatIDo () {
@@ -11,8 +12,7 @@ export default function WhatIDo () {
           </div>
           <div className='row w-100'>
             <div className='col-4'>
-              <i className='fa fa-laptop' />
-              Coucou
+              <Box icon='fa fa-laptop' title='title' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
             </div>
             <div className='col-4'>
               <i className='fa fa-object-group' />
