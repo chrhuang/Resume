@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './Carousel.scss'
 
 export default class Carousel extends Component {
@@ -22,7 +23,7 @@ export default class Carousel extends Component {
                   I make web and mobile applications
                 </p>
                 <div className='talk'>
-                  Let's talk
+                  <AnchorLink style={{ textDecoration: 'none', color: '#212529' }} href='#Contact'>Let's talk</AnchorLink>
                 </div>
               </div>
             </div>
@@ -54,7 +55,7 @@ export default class Carousel extends Component {
                   I make web and mobile applications
                 </p>
                 <div className='talk'>
-                  Let's talk
+                  <span className='coucou'>Let's talk</span>
                 </div>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Who from './Who/Who'
 import Expert from './Expert/Expert'
+import Box from './Box/Box'
 import './About.scss'
 
 export default class About extends Component {
@@ -17,6 +18,14 @@ export default class About extends Component {
           </div>
           <div className='col-6'>
             <Expert />
+          </div>
+        </div>
+        <div className='row info'>
+          <div className='col-6'>
+            <Box title='Edu' titleBis='cation' />
+          </div>
+          <div className='col-6'>
+            <Box title='Ex' titleBis='perience' />
           </div>
         </div>
       </div>

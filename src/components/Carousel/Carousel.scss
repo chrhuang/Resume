@@ -32,10 +32,13 @@
             display: inline-block;
             font-size: 18px;
             font-weight: bold;
-            width: auto;
             padding: 10px 20px;
-            border: 2px solid black;
+            border: 2px solid #303030;
             text-transform: uppercase;
+            transition: 1s;
+            &:hover {
+                background-color: #f9f9f9;
+            }
         }
     }
 }
