@@ -4,7 +4,7 @@ import './WhatIDo.scss'
 export default function WhatIDo () {
   return (
     <div>
-      <div className='WhatIDo'>
+      <div id='Services' className='WhatIDo'>
         <div className='container flex-center'>
           <div className='title'>
             What i do

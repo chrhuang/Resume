@@ -54,6 +54,9 @@ export default class Navbar extends Component {
                 <li>
                   <AnchorLink style={{ textDecoration: 'none' }} href='#About'>About</AnchorLink>
                 </li>
+                <li>
+                  <AnchorLink style={{ textDecoration: 'none' }} href='#Services'>Services</AnchorLink>
+                </li>
                 {/* <li> */}
                 {/* <AnchorLink style={{ textDecoration: 'none' }} href='#Contact'>Contact</AnchorLink> */}
                 {/* </li> */}
