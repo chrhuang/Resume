@@ -26,7 +26,7 @@ export default class About extends Component {
           <div className='col-lg-6 col-sm-12'>
             <Box title='Edu' titleBis='cation' ressources={Educations.educations} />
           </div>
-          <div className='col-ls-6 col-sm-12'>
+          <div className='col-lg-6 col-sm-12'>
             <Box title='Ex' titleBis='perience' ressources={Experiences.experiences} />
           </div>
         </div>
