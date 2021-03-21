@@ -12,7 +12,7 @@ export default function WhatIDo () {
           </div>
           <div className='row w-100'>
             <div className='col-lg-4 col-md-12 pt-3 pb-3'>
-              <Box icon='fa fa-laptop fa-3x' title='title' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
+              <Box icon='fa fa-laptop fa-3x' title='WEB DESIGN & UI' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
             </div>
             <div className='col-lg-4 col-md-12 pt-3 pb-3'>
               <Box icon='fa fa-object-group fa-3x' title='title' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
@@ -21,10 +21,10 @@ export default function WhatIDo () {
               <Box icon='fa fa-paint-brush fa-3x' title='title' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
             </div>
             <div className='col-lg-4 col-md-12 pt-3 pb-3'>
-              <Box icon='fa fa-mobile fa-4x' title='title' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
+              <Box icon='fa fa-mobile fa-4x' title='MOBILE APP DESIGN' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
             </div>
             <div className='col-lg-4 col-md-12 pt-3 pb-3'>
-              <Box icon='fa fa-first-order fa-3x' title='title' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
+              <Box icon='fa fa-first-order fa-3x' title='Logo design' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
             </div>
             <div className='col-lg-4 col-md-12 pt-3 pb-3'>
               <Box icon='fa fa-clone fa-3x' title='title' content='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
