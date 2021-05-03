@@ -1,7 +1,8 @@
 {
     "educations":
     [
-        {"start":"2002", "end":"2006", "place":"Paris", "where":"42", "desc":"Coucou je suis un text qui est là juste pour faire genre ahah"},
-        {"start":"2002", "end":"2006", "place":"Paris", "where":"42", "desc":"Coucou je suis un text qui est là juste pour faire genre ahah"}
+        {"start":"May 2021", "end":"July 2021", "place":"Lille", "where":"Le Wagon", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis."},
+        {"start":"2018", "end":"2021", "place":"Paris", "where":"42", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis."},
+        {"start":"2002", "end":"2006", "place":"Paris", "where":"42", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis."}
     ]
 }
