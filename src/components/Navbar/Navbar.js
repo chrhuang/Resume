@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 import './Navbar.scss'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import avatar from '../../img/photo.jpg'
+import avatar from '../../img/photo.jpeg'
 
 export default class Navbar extends Component {
   state = {
     theposition: window.pageYOffset
   };
 
-  componentDidMount () {
+  componentDidMount() {
     window.addEventListener('scroll', this.listenToScroll)
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     window.removeEventListener('scroll', this.listenToScroll)
   }
 
@@ -29,11 +29,11 @@ export default class Navbar extends Component {
     })
   }
 
-  handleActive (props) {
+  handleActive(props) {
     console.log('Coucou', props)
   }
 
-  render () {
+  render() {
     return (
       <div className='top-navbar'>
         <div className='container'>
